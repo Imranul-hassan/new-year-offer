@@ -73,6 +73,57 @@ body{
     height: 400px;
 }
 
+/* midnight section styles */
+.midnight-party-container{
+    background-image: url("../images/Vectorrr.png");
+    background-color: rgba(0, 0, 0, .4);
+    background-blend-mode: overlay;
+    width: 1180px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left-side-content{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    margin: 0px 30px;
+}
+.left-side-content h2{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 600;
+}
 
-
+.left-side-content p{
+    color: rgba(255, 255, 255);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 300;
+}
+#midnight-button{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+  
+.right-side-content{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px ;
+}
 
